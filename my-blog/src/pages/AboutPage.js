@@ -1,7 +1,15 @@
+import GitHubButton from 'react-github-btn'
+
 const AboutPage = () => {
     return (
         <>
         <h1>About Me</h1>
+        <div className='row ml-3 d-flex'>
+            <div className="column">
+                <img src={window.location.origin + '/20220821_152113__01.jpg'} alt="" height="400px" width="400px"/>
+            </div>
+            <GitHubButton href="https://github.com/shahnawaz52">Github</GitHubButton>
+        </div>
         <p>
             I am Shahnawaz Idariya, currently I am pursuing my Masters in Computer Engineering at
             San Jose State University. I have 2 years of experience in ERP Software Development and 
